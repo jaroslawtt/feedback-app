@@ -17,7 +17,7 @@ export const useForm = () => {
     const submitHandler = async (evt: FormEvent<HTMLFormElement>) => {
         evt.preventDefault();
         try {
-            const response = await api.post(`test`,{
+            const response = await api.post(``,{
                 ...formState,
             });
             if(response.status >= 200 && response.status < 300){

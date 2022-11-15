@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import {PrismaService} from "../prisma/prisma.service";
-import {FeedbackDto} from "./dto";
+import { PrismaService } from "../prisma/prisma.service";
+import { FeedbackDto } from "./dto";
 
 @Injectable()
 export class FeedbackService {
@@ -27,15 +27,4 @@ export class FeedbackService {
             },
         });
     };
-
-    async testFeedback(dto: FeedbackDto){
-        return new Promise(resolve => {
-            setTimeout(()=> {
-                resolve({
-                    id: Date.now(),
-                    ...dto,
-                })
-            }, 1000);
-        })
-    }
 }

@@ -14,9 +14,4 @@ export class FeedbackController {
         return this.feedbackService.insertFeedback(body);
     }
 
-    @Post('test')
-    @HttpCode(201)
-    uploadMessage(@Body() body: FeedbackDto): Promise<any>{
-        return this.feedbackService.testFeedback(body);
-    }
 }
