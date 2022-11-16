@@ -2,7 +2,6 @@ import React from 'react';
 import styled from "styled-components";
 
 
-// @ts-ignore
 import Background from "../assets/img/Captura de Tela 2021-01-21 às 10.47 1(1).png";
 import Cartoon from "../UI/Cartoon";
 import Smile from "../UI/Smile";

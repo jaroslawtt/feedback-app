@@ -1,14 +1,13 @@
 import React, {FC} from 'react';
 import styled from "styled-components";
 import { IconType } from "../types";
-// @ts-ignore
-import { ReactComponent as FacebookLogo} from "./socials/VectorFacebook.svg";
-// @ts-ignore
-import { ReactComponent as PinterestLogo} from "./socials/VectorPinterest.svg";
-// @ts-ignore
-import { ReactComponent as TwitterLogo} from "./socials/VectorTwitter.svg";
-// @ts-ignore
+
+
+import { ReactComponent as FacebookLogo } from "./socials/VectorFacebook.svg";
+import { ReactComponent as PinterestLogo}  from "./socials/VectorPinterest.svg";
+import { ReactComponent as TwitterLogo}  from "./socials/VectorTwitter.svg";
 import { ReactComponent as LinkedLogo} from "./socials/VectorLinedIn.svg";
+
 
 const CustomIcon = styled.a`
   

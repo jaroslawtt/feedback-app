@@ -1,9 +1,7 @@
 import React, {FC, PropsWithChildren} from 'react';
 import styled from "styled-components";
 import Form from "./Form";
-import Map from "./Map";
 import Aside from "./Aside";
-import Cartoon from "../UI/Cartoon";
 
 const CustomMain = styled.main`
     width: 100%;
