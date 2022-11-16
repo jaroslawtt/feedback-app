@@ -36,6 +36,11 @@ $ npm run start | yarn run start
 
 $ cd server
 
+$ docker compose up
+
+Add .env file with db url configuration:
+DATABASE_URL="postgresql://postgres:123@localhost:5432/mydb?schema=public"
+
 $ npm run start | yarn run start
 
 
