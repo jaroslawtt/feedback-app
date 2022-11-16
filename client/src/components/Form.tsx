@@ -1,11 +1,10 @@
-import React, {FC, FormEvent, PropsWithChildren, useState} from 'react';
+import React, { FC, PropsWithChildren } from 'react';
 import styled from "styled-components";
 import Submit from "../UI/Submit";
 import FormInput from "../UI/Form-Input";
 import FormTextArea from "../UI/Form-TextArea";
 import FormCaption from "./FormCaption";
-import {useForm} from "../hooks";
-import Cartoon from "../UI/Cartoon";
+import { useForm } from "../hooks";
 
 
 const CustomForm = styled.form`

@@ -20,10 +20,10 @@ interface SubmitProps extends PropsWithChildren{
 }
 
 
-const Submit: FC<SubmitProps> = ({children}) => {
+const Submit: FC<SubmitProps> = ({ children }) => {
     return (
         <CustomButton>
-            {children}
+            { children }
         </CustomButton>
     );
 };

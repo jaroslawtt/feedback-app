@@ -1,4 +1,4 @@
-import React, {FC, PropsWithChildren} from 'react';
+import React, { FC, PropsWithChildren } from 'react';
 import styled from "styled-components";
 import Form from "./Form";
 import Aside from "./Aside";
